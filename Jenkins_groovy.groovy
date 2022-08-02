@@ -27,6 +27,8 @@ node {
   stage('Create YAML'){
      createYAML('v1', 'dev', 'TestFam', 'Test Application', '1.0.0', 'xyz', 'container') 
                 sh "cat Jenkins.yaml"
+                sh "demo.sh"
+                sh "cat git"
   }
 }
 
