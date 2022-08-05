@@ -1,4 +1,4 @@
-
+packageFile = ProjectName +"-package"+".zip"
 
 node {
   stage('Zipping 3 files') {
