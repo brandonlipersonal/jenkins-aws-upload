@@ -1,5 +1,3 @@
-
-
 node {
   stage('Zipping 3 files') {
         sh """
